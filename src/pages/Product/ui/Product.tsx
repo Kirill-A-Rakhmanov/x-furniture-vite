@@ -12,7 +12,7 @@ export const Product = () => {
   const { article } = useParams();
 
   React.useEffect(() => {
-    dispatch(fetchItemData(article));
+    dispatch(fetchItemData(article!));
     return () => {
       dispatch(clearItemData());
     };
@@ -20,7 +20,7 @@ export const Product = () => {
 
   return (
     <>
-      <ProductBlock article={article} />
+      <ProductBlock article={article!} />
       <Trending />
     </>
   );

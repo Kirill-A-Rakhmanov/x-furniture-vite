@@ -1,7 +1,9 @@
 import { tColor, tItem, tMeasurements } from "../product";
 
 export const mapMeasurementsByArticle = (data: tItem, article: string) => {
-  const findItem: tColor = data.colors.find((obj) => obj.article === article);
+  const findItem: tColor | undefined = data.colors.find(
+    (obj) => obj.article === article
+  );
 
   if (findItem) {
     const measurements: tMeasurements = data.measurements.image

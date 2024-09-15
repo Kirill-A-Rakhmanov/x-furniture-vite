@@ -8,23 +8,23 @@ type tProps = {
 };
 
 export const ScrollableArea = ({ content }: tProps) => {
-  const itemsContainerRef = React.useRef(null);
+  const itemsContainerRef = React.useRef<HTMLDivElement>(null);
   const scrollPosition = React.useRef<number>(0);
   const scrollStep = React.useRef<number>(0);
   const [scrollOnRight, setScrollOnRight] = React.useState(true);
   const [scrollOnLeft, setScrollOnLeft] = React.useState(true);
 
   function handleScroll() {
-    scrollPosition.current = itemsContainerRef.current.scrollLeft;
-    if (itemsContainerRef.current.scrollLeft > 0) {
+    scrollPosition.current = itemsContainerRef.current!.scrollLeft;
+    if (itemsContainerRef.current!.scrollLeft > 0) {
       setScrollOnLeft(false);
     } else {
       setScrollOnLeft(true);
     }
     if (
-      itemsContainerRef.current.scrollLeft <
-      itemsContainerRef.current.scrollWidth -
-        itemsContainerRef.current.offsetWidth
+      itemsContainerRef.current!.scrollLeft <
+      itemsContainerRef.current!.scrollWidth -
+        itemsContainerRef.current!.offsetWidth
     ) {
       setScrollOnRight(false);
     } else {
@@ -33,7 +33,7 @@ export const ScrollableArea = ({ content }: tProps) => {
   }
 
   function handleButtonScroll(scrollAmount: number) {
-    itemsContainerRef.current.scrollLeft =
+    itemsContainerRef.current!.scrollLeft =
       scrollPosition.current + scrollAmount;
   }
 
@@ -44,7 +44,7 @@ export const ScrollableArea = ({ content }: tProps) => {
     }
     function calcScrollStep() {
       scrollStep.current = MinusTenPercent(
-        itemsContainerRef.current.offsetWidth
+        itemsContainerRef.current!.offsetWidth
       );
     }
 

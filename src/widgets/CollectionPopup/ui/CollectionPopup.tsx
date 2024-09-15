@@ -31,7 +31,7 @@ export const CollectionPopup = ({ collection, actionOnClose }: tProps) => {
     dialogRef.current?.showModal();
     document.body.style.overflow = "hidden";
 
-    dialogRef.current.addEventListener("close", closePopup);
+    dialogRef.current?.addEventListener("close", closePopup);
 
     return () => {
       closePopup();

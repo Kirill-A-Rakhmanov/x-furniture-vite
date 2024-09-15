@@ -17,13 +17,13 @@ export const CartItem = ({ itemData }: tProps) => {
       size={itemData.size}
       price={itemData.price}
       image={itemData.image}
-      quantity={itemData.quantity}
+      quantity={itemData.quantity!}
       article={itemData.article}
       actionAddToFavorite={<AddToFavorite item={itemData} />}
       actionRemoveFromCart={<RemoveFromCart article={itemData.article} />}
       actionSetQuantity={
         <SetCartQuantity
-          quantity={itemData.quantity}
+          quantity={itemData.quantity!}
           article={itemData.article}
         />
       }

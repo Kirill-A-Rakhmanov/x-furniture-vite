@@ -52,7 +52,7 @@ export const cartSlice = createSlice({
         (obj) => obj.article === action.payload
       );
       if (findItem) {
-        findItem.quantity++;
+        findItem.quantity!++;
       }
       state.totalQuantity = calcTotalQuantity(state.items);
       state.totalPrice = calcTotalPrice(state.items);
@@ -62,7 +62,7 @@ export const cartSlice = createSlice({
         (obj) => obj.article === action.payload
       );
       if (findItem) {
-        findItem.quantity--;
+        findItem.quantity!--;
       }
       state.totalQuantity = calcTotalQuantity(state.items);
       state.totalPrice = calcTotalPrice(state.items);

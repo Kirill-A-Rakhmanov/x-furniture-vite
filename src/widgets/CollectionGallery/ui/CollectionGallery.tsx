@@ -42,7 +42,7 @@ export const CollectionGallery = () => {
       </div>
       <CollectionPopup
         actionOnClose={clearCollection}
-        collection={activeCollection}
+        collection={activeCollection!}
       />
     </>
   );

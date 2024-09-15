@@ -2,7 +2,9 @@ import { tColor, tItemCard } from "./../model/types";
 import { tItem } from "../product";
 
 export const mapProductDataByArticle = (data: tItem, article: string) => {
-  const findItem: tColor = data.colors.find((obj) => obj.article === article);
+  const findItem: tColor | undefined = data.colors.find(
+    (obj) => obj.article === article
+  );
 
   if (findItem) {
     const obj: tItemCard = {

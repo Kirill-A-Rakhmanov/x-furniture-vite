@@ -16,7 +16,7 @@ export const FavoriteCard = ({ itemData }: tProps) => {
       size={itemData.size}
       price={itemData.price}
       image={itemData.image}
-      quantity={itemData.quantity}
+      quantity={itemData.quantity!}
       actionAddToCart={<AddToCart item={itemData} />}
       actionRemoveFromFavorite={
         <RemoveFromFavorite article={itemData.article} />
@@ -24,7 +24,7 @@ export const FavoriteCard = ({ itemData }: tProps) => {
       actionSetQuantity={
         <SetFavoriteQuantity
           article={itemData.article}
-          quantity={itemData.quantity}
+          quantity={itemData.quantity!}
         />
       }
     />

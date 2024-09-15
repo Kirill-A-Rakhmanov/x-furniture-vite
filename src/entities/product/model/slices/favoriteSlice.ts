@@ -25,7 +25,7 @@ export const favoriteSlice = createSlice({
         (obj) => obj.article === action.payload.article
       );
       if (findItem) {
-        findItem.quantity++;
+        findItem.quantity!++;
       } else {
         state.items.push({ ...action.payload, quantity: 1 });
       }
@@ -42,7 +42,7 @@ export const favoriteSlice = createSlice({
         (obj) => obj.article === action.payload
       );
       if (findItem) {
-        findItem.quantity++;
+        findItem.quantity!++;
       }
       state.totalQuantity = calcTotalQuantity(state.items);
       state.totalPrice = calcTotalPrice(state.items);
@@ -52,7 +52,7 @@ export const favoriteSlice = createSlice({
         (obj) => obj.article === action.payload
       );
       if (findItem) {
-        findItem.quantity--;
+        findItem.quantity!--;
       }
       state.totalQuantity = calcTotalQuantity(state.items);
       state.totalPrice = calcTotalPrice(state.items);

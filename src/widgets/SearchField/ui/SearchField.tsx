@@ -73,7 +73,7 @@ export const SearchField = () => {
             onClick={() => closePopup()}
             className={clsx(styles.back, isOpen && styles.active)}
           />
-          <Search search={search} />
+          <Search search={search!} />
           <ClearIcon
             onClick={() => clearSearch()}
             className={clsx(styles.clear, isOpen && styles.active)}
@@ -85,7 +85,7 @@ export const SearchField = () => {
               closePopup();
               clearSearch();
             }}
-            search={debouncedSearch}
+            search={debouncedSearch!}
             items={items}
             status={status}
           />

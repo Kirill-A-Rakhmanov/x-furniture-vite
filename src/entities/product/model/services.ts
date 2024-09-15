@@ -10,7 +10,7 @@ export const getItems = async (params?: queryParams) => {
     .then((response) => {
       return response.data;
     })
-    .catch((error) => {
+    .catch(() => {
       return [] as tItem[];
     });
   return data;
@@ -22,7 +22,7 @@ export const getItemById = async (id: string) => {
     .then((response) => {
       return response.data;
     })
-    .catch((error) => {
+    .catch(() => {
       return {} as tItem;
     });
   return data;
@@ -34,7 +34,7 @@ export const getItemByArticle = async (articles: string) => {
     .then((response) => {
       return response.data[0];
     })
-    .catch((error) => {
+    .catch(() => {
       return {} as tItem;
     });
   return data;
@@ -42,12 +42,12 @@ export const getItemByArticle = async (articles: string) => {
 
 export const calcTotalQuantity = (items: tItemCard[]) => {
   return items.reduce((sum: number, obj: tItemCard) => {
-    return obj.quantity + sum;
+    return obj.quantity! + sum;
   }, 0);
 };
 
 export const calcTotalPrice = (items: tItemCard[]) => {
   return items.reduce((sum: number, obj: tItemCard) => {
-    return obj.price * obj.quantity + sum;
+    return obj.price * obj.quantity! + sum;
   }, 0);
 };
