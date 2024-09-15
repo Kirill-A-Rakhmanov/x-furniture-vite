@@ -1,0 +1,135 @@
+@import "@/scss/variables.scss";
+
+.footer {
+  margin: 100px 0px 0px 0px;
+  padding: 20px 0px;
+
+  @media (max-width: 768px) {
+    margin: 40px 0px 0px 0px;
+  }
+  .container {
+  }
+
+  .news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsHeader {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  .newsForm {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  .newsField {
+    background-color: $gray;
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    &:hover {
+      background-color: $gray-hover;
+    }
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+  .newsButton {
+    cursor: pointer;
+    height: 40px;
+    padding: 0px 20px;
+    background-color: transparent;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    &:hover {
+      background-color: $gray-hover;
+    }
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  .newsInput {
+    padding: 0px 24px;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
+
+  .bottom {
+    margin: 80px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    @media (max-width: 768px) {
+      font-size: 16px;
+      margin: 60px 0px 0px 0px;
+    }
+  }
+
+  .navigation {
+  }
+
+  .navItems {
+    display: flex;
+    gap: 40px;
+    @media (max-width: 768px) {
+      gap: 20px;
+    }
+    @media (max-width: 425px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .navItem {
+  }
+
+  .navLink {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -3px;
+      height: 2px;
+      width: 0;
+      background-color: $black;
+      transition: all 0.3s ease 0s;
+    }
+    &:hover::after {
+      width: 100%;
+      transition: all 0.3s ease 0s;
+    }
+  }
+
+  .label {
+    margin: 40px 0px 0px 0px;
+    @media (max-width: 768px) {
+      margin: 60px 0px 0px 0px;
+    }
+  }
+}

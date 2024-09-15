@@ -1,0 +1,35 @@
+@import "@/scss/variables.scss";
+
+.wrapper {
+  cursor: pointer;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: #2b2b2b;
+  }
+}
+
+.icon {
+  color: $white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0px 0px 0px 2px;
+}
+
+.up {
+  transform: rotate(-90deg);
+}
+.down {
+  transform: rotate(90deg);
+}
+.left {
+  transform: rotate(180deg);
+}
+.right {
+}

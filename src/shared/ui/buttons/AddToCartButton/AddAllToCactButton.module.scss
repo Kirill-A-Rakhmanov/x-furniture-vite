@@ -1,0 +1,32 @@
+@import "@/scss/variables.scss";
+
+.wrapper {
+  padding: 16px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: $white;
+  background-color: $primary;
+  &:hover {
+    background-color: $primary-hover;
+  }
+  @media (max-width: 540px) {
+    padding: 12px;
+    width: 100%;
+  }
+}
+.icon {
+  font-size: 128px;
+  font-weight: 600;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+.text {
+  font-size: 18px;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}

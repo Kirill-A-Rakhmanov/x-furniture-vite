@@ -1,0 +1,33 @@
+@import "@/scss/variables.scss";
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.wrapper {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  &:hover .title:after {
+    background-color: rgba($black, 1);
+  }
+}
+.icon {
+  font-size: 24px;
+}
+.title {
+  font-size: 14px;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba($black, 0);
+  }
+}

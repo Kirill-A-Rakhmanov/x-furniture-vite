@@ -1,0 +1,22 @@
+.hero {
+  margin: 20px 0px 0px 0px;
+
+  .container {
+  }
+
+  .content {
+    display: grid;
+    gap: 20px;
+    grid-template: repeat(2, 260px) / repeat(4, 1fr);
+    @media (max-width: 992px) {
+      grid-template: repeat(2, 200px) / repeat(4, 1fr);
+    }
+    @media (max-width: 768px) {
+      gap: 10px;
+      grid-template: repeat(3, 200px) / repeat(3, 1fr);
+    }
+    @media (max-width: 540px) {
+      grid-template: repeat(4, 140px) / repeat(2, 1fr);
+    }
+  }
+}

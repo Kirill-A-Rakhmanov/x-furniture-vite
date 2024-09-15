@@ -1,0 +1,28 @@
+.subtotal {
+  margin: 60px 0px 0px 0px;
+}
+.container {
+}
+.content {
+  border-top: 1px solid black;
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  font-size: 20px;
+}
+.price {
+  font-size: 24px;
+  font-weight: 600;
+}
+.button {
+  display: flex;
+  justify-content: end;
+}

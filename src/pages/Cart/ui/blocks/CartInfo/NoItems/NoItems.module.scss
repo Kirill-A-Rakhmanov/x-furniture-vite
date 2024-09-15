@@ -1,0 +1,39 @@
+.wrapper {
+  display: grid;
+  grid-template: 1fr / 60% 40%;
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.image {
+  align-self: center;
+  @media (max-width: 900px) {
+    max-width: 360px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.header {
+  font-size: 26px;
+  font-weight: 600;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+.subtitle {
+  font-size: 18px;
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}

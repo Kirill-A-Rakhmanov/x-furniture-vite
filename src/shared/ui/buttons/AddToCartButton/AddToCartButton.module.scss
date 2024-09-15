@@ -1,0 +1,27 @@
+@import "@/scss/variables.scss";
+
+.wrapper {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: $white;
+  background-color: $primary;
+  &:hover {
+    background-color: $primary-hover;
+  }
+  @media (max-width: 768px) {
+    width: 32px;
+    height: 32px;
+  }
+}
+.icon {
+  font-size: 18px;
+  font-weight: 600;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,73 @@
+@import "@/scss/variables";
+
+.wrapper {
+}
+.button {
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $gray-hover;
+  &:hover .title:after {
+    background-color: rgba($black, 1);
+  }
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -2px;
+    background-color: rgba($black, 0);
+  }
+}
+.icon {
+  font-size: 24px;
+  transform: rotate(90deg);
+  &.active {
+    transform: rotate(270deg);
+  }
+}
+.popup {
+  height: 0;
+  overflow: hidden;
+  &.active {
+    height: 100%;
+    padding: 40px 0px;
+  }
+}
+.content {
+}
+.image {
+  position: relative;
+  width: 100%;
+  padding: 0px 0px 100% 0px;
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.measurements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.measurement {
+  font-size: 14px;
+  font-weight: 600;
+}
+.number {
+  font-weight: 400;
+}

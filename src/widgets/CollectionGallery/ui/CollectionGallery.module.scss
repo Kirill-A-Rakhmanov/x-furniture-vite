@@ -1,0 +1,18 @@
+@import "@/scss/variables.scss";
+
+.gallery {
+  display: grid;
+  grid-template: repeat(8, auto) / repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  @media (max-width: 768px) {
+    gap: 10px;
+    grid-template: repeat(12, auto) / repeat(2, minmax(0, 1fr));
+  }
+}
+.image {
+  cursor: pointer;
+  grid-row: span 4;
+  img {
+    width: 100%;
+  }
+}

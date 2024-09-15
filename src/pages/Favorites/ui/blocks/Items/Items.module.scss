@@ -1,0 +1,38 @@
+.items {
+  margin: 60px 0px 0px 0px;
+  @media (max-width: 768px) {
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+.container {
+}
+
+.content {
+}
+.header {
+  font-size: 28px;
+  font-weight: 600;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+.wrapper {
+  margin: 60px 0px 0px 0px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr;
+  }
+}

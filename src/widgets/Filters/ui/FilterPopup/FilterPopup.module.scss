@@ -1,0 +1,48 @@
+@import "@/scss/variables.scss";
+
+.wrapper {
+  position: absolute;
+  z-index: 50;
+  top: 50px;
+  left: 0;
+  background-color: $gray;
+  width: 300px;
+  box-shadow: 0 4px 16px #0000001a;
+  border-radius: 20px;
+  border: 1px solid $gray-hover;
+  @media (max-width: 768px) {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    width: 100%;
+  }
+}
+.top {
+  position: relative;
+  display: none;
+  text-align: center;
+  border-bottom: 1px solid $gray-hover;
+  padding: 20px 0px;
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+.text {
+  font-size: 16px;
+  font-weight: 600;
+}
+.icon {
+  position: absolute;
+  height: 100%;
+  font-size: 24px;
+  right: 20px;
+  top: 0;
+}
+.options {
+  padding: 32px 0px;
+  max-height: 300px;
+  overflow: auto;
+  @media (max-width: 768px) {
+    border-radius: 20px 20px 0 0;
+  }
+}

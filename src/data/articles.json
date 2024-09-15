@@ -1,0 +1,510 @@
+[
+  {
+    "id": "1",
+    "productId": "0001",
+    "article": "393.054.15",
+    "color": "Gunnared beige",
+    "price": 499,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-gunnared-beige__0766696_pe753866_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-gunnared-beige__0767189_pe754050_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-gunnared-beige__0767187_pe754048_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-gunnared-beige__0767188_pe754049_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0001",
+    "article": "694.495.68",
+    "color": "Fridtuna dark grey",
+    "price": 529,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-fridtuna-dark-grey__1057701_pe848915_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-fridtuna-dark-grey__1057700_pe848916_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-fridtuna-dark-grey__1057675_pe848878_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-fridtuna-dark-grey__1057676_pe848882_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "3",
+    "productId": "0001",
+    "article": "394.520.53",
+    "color": "Tonerud grey",
+    "price": 449,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-tonerud-grey__1057813_pe848995_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-tonerud-grey__1057812_pe848996_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-tonerud-grey__1057803_pe848986_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/soederhamn-3-seat-section-tonerud-grey__1057804_pe848990_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0002",
+    "article": "202.313.06",
+    "color": "Off-white",
+    "price": 59,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/ranarp-floor-reading-lamp-off-white__0606895_pe682605_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/ranarp-floor-reading-lamp-off-white__1127978_ph185859_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/ranarp-floor-reading-lamp-off-white__0249394_pe387920_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/ranarp-floor-reading-lamp-off-white__0281506_pe383260_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0002",
+    "article": "903.313.74",
+    "color": "Black",
+    "price": 59,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/ranarp-floor-reading-lamp-black__0606896_pe682604_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/ranarp-floor-reading-lamp-black__0879706_pe611377_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/ranarp-floor-reading-lamp-black__0570380_ph145743_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0003",
+    "article": "292.282.05",
+    "color": "Orrsta light blue",
+    "price": 799,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-orrsta-light-blue__0532354_pe648004_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-orrsta-light-blue__0728013_pe735994_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-orrsta-light-blue__0750982_ph159254_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-orrsta-light-blue__0750984_ph159257_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0003",
+    "article": "695.168.93",
+    "color": "Borgunda dark grey",
+    "price": 859,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-borgunda-dark-grey__1212713_pe910718_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-borgunda-dark-grey__1212716_pe910721_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-borgunda-dark-grey__1212715_pe910720_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "3",
+    "productId": "0003",
+    "article": "495.112.93",
+    "color": "Kilanda dark blue",
+    "price": 809,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-kilanda-dark-blue__1212724_pe910729_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-kilanda-dark-blue__1212723_pe910728_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-kilanda-dark-blue__1212727_pe910732_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/holmsund-corner-sofa-bed-kilanda-dark-blue__1212726_pe910731_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0004",
+    "article": "505.306.48",
+    "color": "Knisa grey-beige",
+    "price": 369,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/aelvdalen-3-seat-sofa-bed-knisa-grey-beige__1194633_pe902030_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/aelvdalen-3-seat-sofa-bed-knisa-grey-beige__1194634_pe902031_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/aelvdalen-3-seat-sofa-bed-knisa-grey-beige__1194640_pe902035_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/aelvdalen-3-seat-sofa-bed-knisa-grey-beige__1240307_pe919291_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0004",
+    "article": "804.625.96",
+    "color": "Knisa dark grey",
+    "price": 369,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/aelvdalen-3-seat-sofa-bed-knisa-dark-grey__1194636_pe902033_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/aelvdalen-3-seat-sofa-bed-knisa-dark-grey__1194637_pe902028_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/aelvdalen-3-seat-sofa-bed-knisa-dark-grey__1194644_pe902039_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/aelvdalen-3-seat-sofa-bed-knisa-dark-grey__1240309_pe919292_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0005",
+    "article": "105.012.71",
+    "color": "dimmable black",
+    "price": 169,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/vaghoejd-led-floor-lamp-dimmable-black__1126257_pe875659_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/vaghoejd-led-floor-lamp-dimmable-black__1155261_pe886533_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/vaghoejd-led-floor-lamp-dimmable-black__1126254_pe875656_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0006",
+    "article": "493.857.51",
+    "color": "firm/Vissle grey",
+    "price": 449,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/saeboevik-divan-bed-firm-vissle-grey__0891216_pe782251_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/saeboevik-divan-bed-firm-vissle-grey__1101350_pe866612_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/saeboevik-divan-bed-firm-vissle-grey__0966513_ph175097_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/saeboevik-divan-bed-firm-vissle-grey__1101351_pe866613_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0007",
+    "article": "304.268.36",
+    "color": "medium grey",
+    "price": 119,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/stoense-rug-low-pile-medium-grey__0624399_pe691812_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/stoense-rug-low-pile-medium-grey__0893639_pe710404_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/stoense-rug-low-pile-medium-grey__0658701_pe710365_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0007",
+    "article": "204.268.08",
+    "color": "Off-white",
+    "price": 119,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/stoense-rug-low-pile-off-white__0624402_pe691814_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/stoense-rug-low-pile-off-white__0893623_pe710401_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/stoense-rug-low-pile-off-white__0658700_pe710364_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/stoense-rug-low-pile-off-white__0916210_ph166416_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0008",
+    "article": "494.896.40",
+    "color": "Hallarp white",
+    "price": 649,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-hallarp-white__1193806_pe901633_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-hallarp-white__1271191_ph194352_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-hallarp-white__1271192_ph194128_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0008",
+    "article": "994.896.28",
+    "color": "Gransel grey-brown",
+    "price": 699,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-gransel-grey-brown__1193816_pe901643_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-gransel-grey-brown__1193815_pe901642_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-gransel-grey-brown__1194021_pe901755_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "3",
+    "productId": "0008",
+    "article": "695.149.26",
+    "color": "Gransel grey",
+    "price": 699,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-gransel-grey__1193810_pe901637_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-gransel-grey__1193809_pe901636_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hyltarp-3-seat-sofa-gransel-grey__1194015_pe901767_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0009",
+    "article": "305.552.82",
+    "color": "Beige",
+    "price": 179,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/tidtabell-rug-flatwoven-beige__1185180_pe898299_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/tidtabell-rug-flatwoven-beige__1192332_pe901047_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/tidtabell-rug-flatwoven-beige__1192333_pe901046_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/tidtabell-rug-flatwoven-beige__1185179_pe898297_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0009",
+    "article": "405.618.62",
+    "color": "Grey-blue",
+    "price": 179,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/tidtabell-rug-flatwoven-grey-blue__1185074_pe898255_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/tidtabell-rug-flatwoven-grey-blue__1185072_pe898254_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/tidtabell-rug-flatwoven-grey-blue__1192255_pe901040_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0010",
+    "article": "193.931.54",
+    "color": "Blekinge white",
+    "price": 599,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/backsaelen-3-seat-sofa-blekinge-white__0950634_pe800555_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/backsaelen-3-seat-sofa-blekinge-white__0985520_pe816658_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/backsaelen-3-seat-sofa-blekinge-white__0986633_pe817252_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/backsaelen-3-seat-sofa-blekinge-white__0985575_pe816677_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0010",
+    "article": "493.931.57",
+    "color": "Hallarp grey",
+    "price": 649,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/backsaelen-3-seat-sofa-hallarp-grey__0950638_pe800559_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/backsaelen-3-seat-sofa-hallarp-grey__0950639_pe800557_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/backsaelen-3-seat-sofa-hallarp-grey__0950621_pe800550_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/backsaelen-3-seat-sofa-hallarp-grey__1032848_pe837028_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0011",
+    "article": "304.518.64",
+    "color": "textile/white",
+    "price": 29,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/mojna-pendant-lamp-shade-textile-white__0828648_pe776668_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/mojna-pendant-lamp-shade-textile-white__0828649_pe776669_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/mojna-pendant-lamp-shade-textile-white__0828651_pe776671_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/mojna-pendant-lamp-shade-textile-white__1059465_ph181230_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0012",
+    "article": "304.925.72",
+    "color": "White",
+    "price": 199,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/vollerslev-rug-high-pile-white__0933663_pe792171_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/vollerslev-rug-high-pile-white__0933665_pe792173_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/vollerslev-rug-high-pile-white__1290832_pe934760_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0012",
+    "article": "604.925.61",
+    "color": "Dark blue",
+    "price": 199,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/vollerslev-rug-high-pile-dark-blue__0933595_pe792162_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/vollerslev-rug-high-pile-dark-blue__0933597_pe792166_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/vollerslev-rug-high-pile-dark-blue__1147012_ph181274_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/vollerslev-rug-high-pile-dark-blue__1147013_ph181275_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0013",
+    "article": "505.153.13",
+    "color": "Oak veneer",
+    "price": 169,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/listerby-coffee-table-oak-veneer__1022538_pe832796_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/listerby-coffee-table-oak-veneer__1022539_pe832797_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/listerby-coffee-table-oak-veneer__1170343_pe892785_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/listerby-coffee-table-oak-veneer__1022541_pe832799_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0013",
+    "article": "405.622.44",
+    "color": "Dark brown beech veneer",
+    "price": 149,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/listerby-coffee-table-dark-brown-beech-veneer__1170197_pe892712_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/listerby-coffee-table-dark-brown-beech-veneer__1170200_pe892714_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/listerby-coffee-table-dark-brown-beech-veneer__1170199_pe892713_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/listerby-coffee-table-dark-brown-beech-veneer__1170201_pe892715_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0014",
+    "article": "590.316.98",
+    "color": "Grann/Bomstad black",
+    "price": 899,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/landskrona-three-seat-sofa-grann-bomstad-black-metal__0321002_pe514786_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/landskrona-three-seat-sofa-grann-bomstad-black-metal__0820960_pe599073_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/landskrona-three-seat-sofa-grann-bomstad-black-metal__0957675_ph163802_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/landskrona-three-seat-sofa-grann-bomstad-black-metal__0813412_ph166311_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0014",
+    "article": "092.702.95",
+    "color": "Grann/Bomstad golden-brown",
+    "price": 899,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/landskrona-3-seat-sofa-grann-bomstad-golden-brown-metal__0602109_pe680178_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/landskrona-3-seat-sofa-grann-bomstad-golden-brown-metal__0825420_pe680179_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/landskrona-3-seat-sofa-grann-bomstad-golden-brown-metal__0813406_ph166310_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/landskrona-3-seat-sofa-grann-bomstad-golden-brown-metal__0825418_pe680177_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0015",
+    "article": "702.976.58",
+    "color": "Ash veneer",
+    "price": 139,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/lisabo-coffee-table-ash-veneer__0735609_pe740032_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/lisabo-coffee-table-ash-veneer__0835588_pe601380_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/lisabo-coffee-table-ash-veneer__0469758_ph124298_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/lisabo-coffee-table-ash-veneer__0469759_ph132238_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0016",
+    "article": "302.126.75",
+    "color": "Assorted colours",
+    "price": 4.99,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/tanum-rug-flatwoven-assorted-colours__0949362_pe799670_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/tanum-rug-flatwoven-assorted-colours__0951460_ph148137_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/tanum-rug-flatwoven-assorted-colours__0951537_ph148134_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0017",
+    "article": "704.192.64",
+    "color": "Acacia",
+    "price": 549,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/skogsta-dining-table-acacia__0546603_pe656255_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/skogsta-dining-table-acacia__1342684_pe949087_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/skogsta-dining-table-acacia__1015064_ph176248_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/skogsta-dining-table-acacia__1340219_pe948521_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0018",
+    "article": "705.448.66",
+    "color": "Acacia",
+    "price": 85,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/skogsta-chair-acacia__1343430_pe949583_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/skogsta-chair-acacia__1249771_pe923498_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/skogsta-chair-acacia__1342684_pe949087_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/skogsta-chair-acacia__1342683_pe949088_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0018",
+    "article": "505.448.67",
+    "color": "Black",
+    "price": 75,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/skogsta-chair-black__1243349_pe920580_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/skogsta-chair-black__1243347_pe920579_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/skogsta-chair-black__1240710_pe919457_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0019",
+    "article": "305.074.65",
+    "color": "Birch",
+    "price": 229,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/roenninge-extendable-table-birch__1016271_pe830286_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/roenninge-extendable-table-birch__1028439_pe835453_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/roenninge-extendable-table-birch__1273049_pe929838_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/roenninge-extendable-table-birch__1371629_pe959210_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0020",
+    "article": "104.225.04",
+    "color": "Birch",
+    "price": 99,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/roenninge-chair-birch__0642047_pe700849_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/roenninge-chair-birch__1053075_pe846671_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/roenninge-chair-birch__1053072_pe846668_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "0020",
+    "article": "104.308.63",
+    "color": "Black",
+    "price": 99,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/roenninge-chair-black__0642096_pe700892_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/roenninge-chair-black__0701516_pe724128_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/roenninge-chair-black__1053080_pe846676_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/roenninge-chair-black__1053081_pe846677_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0021",
+    "article": "002.773.95",
+    "color": "Natural",
+    "price": 129,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/lohals-rug-flatwoven-natural__0280230_pe419175_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/lohals-rug-flatwoven-natural__1139963_pe880601_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/lohals-rug-flatwoven-natural__0893155_pe583381_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/lohals-rug-flatwoven-natural__1324846_ph170325_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0022",
+    "article": "503.862.45",
+    "color": "Oak veneer brown stained",
+    "price": 599,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0737108_pe740890_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/moerbylanga-table-oak-veneer-brown-stained__1209072_pe909012_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/moerbylanga-table-oak-veneer-brown-stained__1245362_pe921603_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0719380_pe732028_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0023",
+    "article": "803.903.59",
+    "color": "Dark grey",
+    "price": 29,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/hektar-pendant-lamp-dark-grey__0613033_pe686124_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hektar-pendant-lamp-dark-grey__1257915_pe926088_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hektar-pendant-lamp-dark-grey__1257914_pe926089_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/hektar-pendant-lamp-dark-grey__0397374_ph123776_s5.jpg?f=m"
+    ]
+  },
+  {
+    "id": "1",
+    "productId": "0024",
+    "article": "304.778.78",
+    "color": "Smart black",
+    "price": 99,
+    "images": [
+      "https://www.ikea.com/fi/en/images/products/pilskott-led-pendant-lamp-smart-black__1077625_pe856954_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/pilskott-led-pendant-lamp-smart-black__1077624_pe856955_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/pilskott-led-pendant-lamp-smart-black__1187807_ph190468_s5.jpg?f=m",
+      "https://www.ikea.com/fi/en/images/products/pilskott-led-pendant-lamp-smart-black__1177540_ph190469_s5.jpg?f=m"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+@import "@/scss/variables.scss";
+
+.wrapper {
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &:hover .radio:after {
+    background-color: rgba($color: $black, $alpha: 0.2);
+  }
+}
+.title {
+  font-size: 14px;
+}
+.radio {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  border: 1px solid $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba($color: $black, $alpha: 0);
+  }
+}
+.radioSymbol {
+  height: 16px;
+  width: 16px;
+  border-radius: 18px;
+  background-color: rgba($color: $black, $alpha: 0);
+  &.active {
+    background-color: rgba($color: $black, $alpha: 1);
+  }
+}

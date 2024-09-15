@@ -1,0 +1,35 @@
+.wrapper {
+  position: relative;
+  &:hover {
+    .scrollLeft,
+    .scrollRight {
+      visibility: visible;
+    }
+  }
+}
+
+.items {
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.scrollRight,
+.scrollLeft {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+}
+
+.scrollRight {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.scrollLeft {
+  left: 0;
+  transform: translate(-50%, -50%);
+}

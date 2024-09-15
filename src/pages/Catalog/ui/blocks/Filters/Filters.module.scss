@@ -1,0 +1,16 @@
+@import "@/scss/variables";
+
+.filters {
+  margin: 20px 0px 0px 0px;
+}
+
+.container {
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 2px;
+  border-bottom: 1px solid $gray-hover;
+}

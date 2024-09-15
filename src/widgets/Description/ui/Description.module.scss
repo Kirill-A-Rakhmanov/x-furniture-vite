@@ -1,0 +1,33 @@
+@import "@/scss/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text {
+  font-size: 20px;
+  color: $dark-gray;
+  line-height: 140%;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.title {
+  font-size: 12px;
+}
+.value {
+  background-color: $black;
+  color: $white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.valueSkeleton {
+  width: 200px;
+}
+.measurementsSkeleton {
+  height: 100px;
+}

@@ -1,0 +1,32 @@
+@import "@/scss/variables.scss";
+
+.categories {
+  ul {
+    display: flex;
+    gap: 10px;
+    padding: 5px 2px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    li {
+      cursor: pointer;
+      height: 40px;
+      padding: 0px 20px;
+      align-content: center;
+      border-radius: 40px;
+      background-color: $gray;
+      font-size: 14px;
+      font-weight: 600;
+      flex: 0 0 auto;
+      &:hover {
+        background-color: $gray-hover;
+      }
+      &.active {
+        outline: 1px solid $black;
+      }
+    }
+  }
+}

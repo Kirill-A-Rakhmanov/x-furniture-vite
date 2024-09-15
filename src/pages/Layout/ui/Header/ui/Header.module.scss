@@ -1,0 +1,99 @@
+@import "@/scss/variables.scss";
+
+.header {
+  .container {
+    min-height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template: 1fr / 120px 1fr 120px;
+    align-items: center;
+    @media (max-width: 768px) {
+      grid-template: 1fr 70px / repeat(2, 1fr);
+      row-gap: 10px;
+    }
+  }
+
+  .logo {
+    position: relative;
+    width: 100px;
+    height: 100%;
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    @media (max-width: 768px) {
+      width: 70px;
+    }
+  }
+
+  .info {
+    justify-self: end;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+  }
+  .catalog {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    &:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: -2px;
+      width: 100%;
+      height: 2px;
+      background-color: rgba($black, 0);
+    }
+    &:hover:after {
+      background-color: rgba($black, 1);
+    }
+  }
+  .iconWrapper {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover {
+      background-color: $gray-hover;
+    }
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+  .iconCount {
+    font-family: "Roboto";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    background-color: $accent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+  }
+}
+
+.search {
+  position: relative;
+  height: 100%;
+  @media (max-width: 768px) {
+    order: 3;
+    grid-column: span 2;
+  }
+}

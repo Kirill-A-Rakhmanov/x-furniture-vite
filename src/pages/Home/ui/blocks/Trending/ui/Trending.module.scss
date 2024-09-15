@@ -1,0 +1,33 @@
+@import "@/scss/variables.scss";
+
+.trending {
+  margin: 80px 0px 0px 0px;
+}
+.container {
+}
+
+.header {
+  font-size: 28px;
+  font-weight: 600;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.content {
+  margin: 40px 0px 0px 0px;
+}
+.row {
+  display: flex;
+  gap: 20px;
+
+  & > * {
+    flex: 0 0 280px;
+    @media (max-width: 768px) {
+      flex: 0 0 200px;
+    }
+    @media (max-width: 540px) {
+      flex: 0 0 120px;
+    }
+  }
+}
