@@ -76,7 +76,7 @@ export const SearchField = () => {
           <Search search={search!} />
           <ClearIcon
             onClick={() => clearSearch()}
-            className={clsx(styles.clear, isOpen && styles.active)}
+            className={clsx(styles.clear, isOpen && search && styles.active)}
           />
         </div>
         <div className={clsx(styles.results, isOpen && styles.open)}>
