@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./BuyModule.module.scss";
 import { tItemCard } from "@/entities/entities";
 import { AddToFavorite } from "@/features/features";

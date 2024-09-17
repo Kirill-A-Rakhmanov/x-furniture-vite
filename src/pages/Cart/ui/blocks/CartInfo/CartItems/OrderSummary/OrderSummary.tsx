@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./OrderSummary.module.scss";
 
 import ArrowForward from "@/assets/icons/arrow-forward.svg";

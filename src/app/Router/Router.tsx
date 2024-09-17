@@ -7,7 +7,7 @@ import {
   NotFound,
   Product,
 } from "@/pages/pages";
-// import React from "react";
+
 import { createBrowserRouter, RouteObject } from "react-router-dom";
 
 const routes: RouteObject[] = [

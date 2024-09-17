@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./ColorPicker.module.scss";
 import { tColor, tItemCard } from "@/entities/entities";
 import { Link } from "react-router-dom";

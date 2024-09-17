@@ -6,7 +6,6 @@ import {
   tItemCard,
 } from "@/entities/entities";
 import { AddToFavoriteButton } from "@/shared/shared";
-// import React from "react";
 
 type tProps = {
   item: tItemCard;

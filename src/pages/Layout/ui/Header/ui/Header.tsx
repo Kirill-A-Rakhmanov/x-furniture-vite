@@ -1,5 +1,3 @@
-// import React from "react";
-
 import logo from "@/assets/img/00 header/logo.png";
 
 import styles from "./Header.module.scss";

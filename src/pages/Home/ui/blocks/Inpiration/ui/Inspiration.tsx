@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./Inspiration.module.scss";
 import { CollectionGallery } from "@/widgets/widgets";
 import { Container } from "@/shared/shared";

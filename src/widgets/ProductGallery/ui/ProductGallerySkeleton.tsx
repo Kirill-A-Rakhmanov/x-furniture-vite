@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./ProductGallery.module.scss";
 import Skeleton from "react-loading-skeleton";
 

@@ -1,7 +1,6 @@
 import { useAppDispatch } from "@/app/store/hooks";
 import { removeFromFavorite } from "@/entities/entities";
 import { TrashButton } from "@/shared/shared";
-// import React from "react";
 
 type tProps = {
   article: string;

@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./CartRow.module.scss";
 import { useAppSelector } from "@/app/store/hooks";
 import { selectCartItems, tItemCard } from "@/entities/entities";

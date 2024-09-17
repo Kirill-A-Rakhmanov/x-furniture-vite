@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./NoItems.module.scss";
 import { LinkButton } from "@/shared/shared";
 

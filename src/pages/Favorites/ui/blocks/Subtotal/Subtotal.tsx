@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./Subtotal.module.scss";
 import { AddAllToCart } from "@/features/features";
 import { useAppSelector } from "@/app/store/hooks";

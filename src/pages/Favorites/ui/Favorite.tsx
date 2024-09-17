@@ -1,5 +1,3 @@
-// import React from "react";
-
 // import styles from "./Favorite.module.scss";
 import { Items, Subtotal } from "./blocks";
 import { Trending } from "@/pages/pages";

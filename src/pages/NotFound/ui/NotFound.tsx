@@ -1,5 +1,3 @@
-// import React from "react";
-
 import { Container } from "@/shared/shared";
 import styles from "./NotFound.module.scss";
 import { Link } from "react-router-dom";

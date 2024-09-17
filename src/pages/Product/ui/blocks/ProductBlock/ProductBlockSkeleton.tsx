@@ -4,7 +4,6 @@ import {
   DescriptionSkeleton,
   ProductGallerySkeleton,
 } from "@/widgets/widgets";
-// import React from "react";
 
 import styles from "./ProductBlock.module.scss";
 

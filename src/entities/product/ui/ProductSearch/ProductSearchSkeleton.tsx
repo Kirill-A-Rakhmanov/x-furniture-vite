@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./ProductSearch.module.scss";
 import Skeleton from "react-loading-skeleton";
 

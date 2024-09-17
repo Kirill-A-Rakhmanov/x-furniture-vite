@@ -5,7 +5,6 @@ import {
   setCollection,
   tCollectionOption,
 } from "@/entities/entities";
-// import React from "react";
 
 type tProps = {
   option: tCollectionOption;

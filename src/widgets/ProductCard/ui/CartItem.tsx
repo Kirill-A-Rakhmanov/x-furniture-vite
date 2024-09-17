@@ -1,7 +1,6 @@
 import { ProductCart, tItemCard } from "@/entities/entities";
 import { AddToFavorite, RemoveFromCart } from "@/features/features";
 import { SetCartQuantity } from "@/widgets/widgets";
-// import React from "react";
 
 type tProps = {
   itemData: tItemCard;

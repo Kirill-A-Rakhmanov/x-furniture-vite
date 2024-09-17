@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./ItemsList.module.scss";
 import { ProductRow } from "@/widgets/widgets";
 import { useAppSelector } from "@/app/store/hooks";

@@ -1,7 +1,6 @@
 import { useAppDispatch } from "@/app/store/hooks";
 import { incrementCartQuantity, tSetQuantity } from "@/entities/entities";
 import { PlusButton } from "@/shared/shared";
-// import React from "react";
 
 export const IncreaseCartQuantity = ({ article, quantity }: tSetQuantity) => {
   const dispatch = useAppDispatch();

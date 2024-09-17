@@ -1,5 +1,3 @@
-// import React from "react";
-
 import { PlusButton } from "@/shared/shared";
 import { useAppDispatch } from "@/app/store/hooks";
 import { incrementFavoriteQuantity, tSetQuantity } from "@/entities/entities";

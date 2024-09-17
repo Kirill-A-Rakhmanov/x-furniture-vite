@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./Description.module.scss";
 import { mapMeasurementsByArticle, tItem } from "@/entities/entities";
 import { Measurements } from "@/widgets/widgets";

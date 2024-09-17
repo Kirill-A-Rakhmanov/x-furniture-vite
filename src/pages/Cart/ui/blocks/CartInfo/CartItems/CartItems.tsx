@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./CartItems.module.scss";
 import { CartRow } from "./CartRow/CartRow";
 import { OrderSummary } from "./OrderSummary/OrderSummary";

@@ -1,5 +1,3 @@
-// import React from "react";
-
 import { useAppSelector } from "@/app/store/hooks";
 import { selectFavoriteItems } from "@/entities/entities";
 import { FavoriteCard } from "@/widgets/widgets";

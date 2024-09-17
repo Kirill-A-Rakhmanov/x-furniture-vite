@@ -1,5 +1,3 @@
-// import React from "react";
-
 import bedroomImg from "@/assets/img/01 hero/bedroom.png";
 import kitchenImg from "@/assets/img/01 hero/kitchen.png";
 import livingroomImg from "@/assets/img/01 hero/living room.png";

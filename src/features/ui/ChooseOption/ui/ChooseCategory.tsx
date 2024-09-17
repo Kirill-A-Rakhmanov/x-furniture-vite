@@ -1,5 +1,3 @@
-// import React from "react";
-
 // import styles from "./ChooseOption.module.scss";
 import { useAppDispatch, useAppSelector } from "@/app/store/hooks";
 import {

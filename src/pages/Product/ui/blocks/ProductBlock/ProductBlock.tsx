@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./ProductBlock.module.scss";
 import { useAppSelector } from "@/app/store/hooks";
 import {

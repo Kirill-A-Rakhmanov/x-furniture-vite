@@ -1,7 +1,6 @@
 import { useAppDispatch } from "@/app/store/hooks";
 import { addItemsToCart, tItemCard } from "@/entities/entities";
 import { AddAllToCartButton } from "@/shared/shared";
-// import React from "react";
 
 type tProps = {
   items: tItemCard[];

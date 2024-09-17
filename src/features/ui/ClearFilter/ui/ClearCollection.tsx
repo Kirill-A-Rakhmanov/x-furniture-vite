@@ -1,7 +1,6 @@
 import { useAppDispatch, useAppSelector } from "@/app/store/hooks";
 import { selectFilter, setCollection } from "@/entities/entities";
 import { CurrentFilterButton } from "@/shared/shared";
-// import React from "react";
 
 export const ClearCollection = () => {
   const dispatch = useAppDispatch();

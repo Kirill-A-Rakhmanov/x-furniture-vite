@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./CurrentFilters.module.scss";
 import { ClearAll, ClearCategory, ClearCollection } from "@/features/features";
 import { useAppSelector } from "@/app/store/hooks";

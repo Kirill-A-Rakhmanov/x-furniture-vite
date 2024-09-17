@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./Items.module.scss";
 import { FavoriteRow } from "@/widgets/widgets";
 import { Banner } from "./Banner/Banner";

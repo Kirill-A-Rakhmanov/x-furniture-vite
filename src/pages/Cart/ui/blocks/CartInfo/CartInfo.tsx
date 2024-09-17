@@ -1,5 +1,3 @@
-// import React from "react";
-
 import styles from "./CartInfo.module.scss";
 import { useAppSelector } from "@/app/store/hooks";
 import { selectCartQuantity } from "@/entities/entities";

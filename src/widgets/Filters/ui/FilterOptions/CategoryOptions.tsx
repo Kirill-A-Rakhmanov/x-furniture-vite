@@ -1,6 +1,5 @@
 import { tCategoryOption } from "@/entities/entities";
 import { ChooseCategory } from "@/features/features";
-// import React from "react";
 
 type tProps = {
   options: tCategoryOption[];

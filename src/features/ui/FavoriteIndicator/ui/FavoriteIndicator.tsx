@@ -1,5 +1,3 @@
-// import React from "react";
-
 import FavoriteIcon from "@/assets/icons/favorite.svg";
 import styles from "./FavoriteIndicator.module.scss";
 import { Link } from "react-router-dom";

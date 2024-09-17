@@ -5,7 +5,6 @@ import {
   tSetQuantity,
 } from "@/entities/entities";
 import { MinusButton } from "@/shared/shared";
-// import React from "react";
 
 export const DecreaseCartQuantity = ({ article, quantity }: tSetQuantity) => {
   const dispatch = useAppDispatch();
