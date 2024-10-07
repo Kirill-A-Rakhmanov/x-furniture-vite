@@ -12,73 +12,76 @@ const initialState: iCollectionState = {
     {
       collection: "bedroom",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/39db979d993790c9/original/PH159259.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=1pg_7Gpsm_eSmGVNv4HRHxxZ4F1UjRUM-&sz=w1000",
+
       items: ["29228205", "20231306"],
     },
     {
       collection: "living room",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/6b387ce32b9339d/original/PH194132.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=1trUWOBKP5aFq1WIQsUoQr1ljpZy9M1Ys&sz=w1000",
       items: ["49489640", "30555282"],
     },
     {
       collection: "kitchen",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/2e70991d53cdffe6/original/PH195959.JPG?f=l",
+        "https://drive.google.com/thumbnail?id=1CUxRuylQmnFdWxQQLNhun_yYM5hr68bO&sz=w1000",
       items: ["30212675", "70419264", "70544866"],
     },
     {
       collection: "bedroom",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/1f9bdd6ca0f0563b/original/PH196325.JPG?f=l",
+        "https://drive.google.com/thumbnail?id=1WV_PbD7RHvgX_8LlgMsGCpUmTGHf_vQ-&sz=w1000",
       items: ["50530648", "10501271"],
     },
     {
       collection: "living room",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/e58b3a5841a4ea8/original/PH178639-crop002.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=1qXNEujbID6TgzQrgm_aydgCOAdHbNwTU&sz=w1000",
+
       items: ["19393154", "30451864", "30492572"],
     },
     {
       collection: "kitchen",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/a5875b1d6b86bf1/original/PH186348.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=1AhNkOMuQ5k_79sFsdkg-Ql7d2HyWyzGx&sz=w1000",
       items: ["30507465", "10422504"],
     },
     {
       collection: "bedroom",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/12bddc3c00083d34/original/PH176393.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=1CsXjsogTxHXIaLABCytFVoZPsAy1y7Hh&sz=w1000",
       items: ["30426836", "49385751"],
     },
     {
       collection: "living room",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/283e1f940808f690/original/PH191695.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=19KQ9mG-9ujzLFJz96OM9e41434dcVKpF&sz=w1000",
       items: ["20426808", "50515313"],
     },
     {
       collection: "kitchen",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/63ae61f08bb80d57/original/PH177919-crop001.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=17Y5teYAJ6PF4ToFPOTqxX-Ag70NsCFTL&sz=w1000",
+
       items: ["00277395", "50386245", "80390359"],
     },
     {
       collection: "bedroom",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/5a36edc040c812cf/original/PH194128.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=14H00ltpJByxijlo8iHdqVUlsHtd2hyGK&sz=w1000",
       items: ["49489640", "30555282"],
     },
     {
       collection: "living room",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/3f20c828679b1e1c/original/PH167471-crop001.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=1XfDbT2KkIVhHJ9FfZanlCNPlZe2mF0pJ&sz=w1000",
       items: ["59031698", "70297658"],
     },
     {
       collection: "kitchen",
       image:
-        "https://www.ikea.com/ext/ingkadam/m/23ccd7a274dbee32/original/PH190468.jpg?f=l",
+        "https://drive.google.com/thumbnail?id=1HyjJHBou-PwT4R9Qtm12BQpATvBHD36l&sz=w1000",
       items: ["30477878"],
     },
   ],
